@@ -1,0 +1,51 @@
+# Requisitos Funcionales 
+- RF-01: El sistema debe permitir el registro de nuevos usuarios con diferentes roles (asesores de ventas, carpinteros, administradores, clientes).
+- RF-02: El sistema debe permitir la autenticación de los usuarios mediante nombre de usuario y contraseña.
+- RF-03: El sistema debe permitir a los asesores de ventas registrar las ventas de muebles al contado, tanto para clientes empresariales (B2B) como para clientes individuales (B2C).
+- RF-04: El sistema debe permitir a los asesores de ventas registrar las ventas de muebles a crédito, con seguimiento de pagos.
+- RF-05: El sistema debe mantener un inventario actualizado y sincronizado en tiempo real de los productos disponibles.
+- RF-06: El sistema debe calcular automáticamente el total de una venta, incluyendo impuestos y descuentos aplicables.
+- RF-07: El sistema debe generar y enviar recibos de venta a los clientes por correo electrónico tras cada transacción.
+- RF-08: El sistema debe permitir la gestión de pagos pendientes, facilitando el seguimiento y control por parte de los administradores de ventas.
+- RF-09: El sistema debe enviar recordatorios automáticos de pagos pendientes a los clientes para mejorar la gestión de cobros.
+- RF-10: El sistema debe permitir a los administradores de ventas modificar los detalles relacionados con los pagos pendientes, como fechas y montos.
+- RF-11: El sistema debe permitir la planificación y asignación de tareas de producción a los carpinteros de forma organizada y visual (por ejemplo, mediante un tablero Kanban).
+- RF-12: El sistema debe enviar notificaciones a los carpinteros sobre nuevas tareas asignadas y cambios en su programación.
+- RF-13: El sistema debe permitir a los carpinteros actualizar el estado de sus tareas (pendiente, en progreso, completada) directamente desde su perfil.
+- RF-14: El sistema debe notificar automáticamente al jefe de producción sobre cualquier cambio en el estado de las tareas asignadas.
+- RF-15: El sistema debe calcular la nómina de los empleados en función de su productividad semanal y horas registradas.
+- RF-16: El sistema debe permitir a los empleados solicitar adelantos de pago directamente desde su perfil de usuario.
+- RF-17: El sistema debe registrar automáticamente los adelantos aprobados y deducirlos de los pagos posteriores de forma transparente.
+- RF-18: El sistema debe permitir la evaluación del desempeño de los asesores de ventas mediante métricas como volumen de ventas, satisfacción del cliente y cumplimiento de objetivos.
+- RF-19: El sistema debe registrar de manera detallada todas las ventas realizadas por cada asesor para su análisis posterior.
+- RF-20: El sistema debe generar informes detallados y visuales sobre el rendimiento de ventas individuales y grupales, permitiendo análisis comparativos y seguimiento de KPIs.
+- RF-21: El sistema debe permitir la asignación de rutas de cobro a los cobradores.
+- RF-22: El sistema debe enviar notificaciones a los cobradores sobre sus rutas asignadas.
+- RF-23: El sistema debe permitir a los cobradores registrar los cobros y abonos realizados.
+- RF-24: El sistema debe actualizar el estado de los cobros y abonos registrados.
+- RF-25: El sistema debe generar recibos de cobro para los clientes.
+- RF-26: El sistema debe permitir a los administradores de ventas ver un resumen de las ventas diarias.
+- RF-27: El sistema debe permitir a los clientes ver su historial de compras.
+- RF-28: El sistema debe permitir a los clientes realizar pagos en línea.
+- RF-29: El sistema debe generar alertas automáticas cuando el inventario de un producto esté bajo.
+- RF-30: El sistema debe permitir la gestión de devoluciones de productos.
+- RF-31: El sistema debe permitir a los administradores crear promociones y descuentos personalizados para productos específicos o categorías.
+- RF-32: El sistema debe aplicar automáticamente las promociones y descuentos vigentes durante el proceso de compra.
+- RF-33: El sistema debe permitir a los asesores de ventas y administradores consultar el inventario actualizado en tiempo real.
+- RF-34: El sistema debe permitir registrar y gestionar clientes potenciales, incluyendo su historial de contacto e interés en productos.
+- RF-35: El sistema debe permitir la generación de cotizaciones personalizadas para clientes B2B y B2C.
+- RF-36: El sistema debe enviar automáticamente las cotizaciones generadas al correo electrónico del cliente.
+- RF-37: El sistema debe permitir registrar quejas, sugerencias y reclamos de los clientes a través de un formulario digital.
+- RF-38: El sistema debe permitir hacer seguimiento al estado de cada queja o reclamo, informando al cliente sobre el progreso de la atención.
+- RF-39: El sistema debe permitir integrarse con sistemas de terceros relevantes, como plataformas contables, CRM o pasarelas de pago.
+- RF-40: El sistema debe permitir importar y exportar datos en formatos estándar como CSV y Excel para facilitar la interoperabilidad y el análisis externo.
+- RF-41: El sistema debe permitir la configuración de parámetros generales como tasas de impuestos, tipos de cambio y políticas operativas.
+- RF-42: El sistema debe generar reportes financieros mensuales con métricas clave, exportables en formatos estándar.
+- RF-43: El sistema debe permitir la gestión de permisos y roles de usuario para controlar el acceso a funcionalidades específicas.
+- RF-44: El sistema debe permitir la recuperación de contraseñas mediante un proceso seguro con validación por correo electrónico.
+- RF-45: El sistema debe permitir la visualización de estadísticas de ventas a través de gráficos interactivos y tablas dinámicas.
+- RF-46: El sistema debe permitir la gestión de proveedores, incluyendo el registro, actualización y visualización de productos ofrecidos.
+- RF-47: El sistema debe permitir la generación de órdenes de compra para proveedores, basadas en el inventario o demanda proyectada.
+- RF-48: El sistema debe permitir la verificación de recepción de productos provenientes de proveedores y su ingreso al inventario.
+- RF-49: El sistema debe permitir la gestión de inventario distribuido en múltiples ubicaciones, como sucursales y almacenes.
+- RF-50: El sistema debe proporcionar soporte multilingüe para facilitar su uso por parte de usuarios de diferentes regiones.

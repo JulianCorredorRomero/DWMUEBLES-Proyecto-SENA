@@ -1,0 +1,27 @@
+# Requisitos no funcionales 
+- RNF-01: El sistema debe ser accesible 24/7 con un tiempo de inactividad máximo del 1% mensual.
+- RNF-02: El tiempo de respuesta del sistema debe ser menor a 2 segundos para el 95% de las transacciones.
+- RNF-03: El sistema debe soportar al menos 200 usuarios concurrentes sin degradar el rendimiento.
+- RNF-04: El sistema debe cumplir con la normativa GDPR para la protección de datos de los clientes.
+- RNF-05: Las copias de seguridad de los datos deben realizarse diariamente y almacenarse de manera segura.
+- RNF-06: El sistema debe proporcionar una disponibilidad de al menos el 99.9%.
+- RNF-07: Los datos deben ser encriptados tanto en tránsito como en reposo utilizando estándares de encriptación como AES-256.
+- RNF-08: El sistema debe ser compatible con navegadores modernos como Chrome, Firefox, Safari y Edge.
+- RNF-09: El sistema debe ser accesible desde dispositivos móviles (smartphones y tablets).
+- RNF-10: La interfaz de usuario debe ser intuitiva y fácil de usar, con un tiempo de aprendizaje menor a 1 hora para un usuario promedio.
+- RNF-11: El sistema debe permitir la configuración de roles y permisos granulares para los usuarios.
+- RNF-12: Las actualizaciones y parches del sistema deben ser aplicados sin interrumpir el servicio.
+- RNF-13: El sistema debe ofrecer tiempos de recuperación ante fallos menores a 30 minutos.
+- RNF-14: El sistema debe permitir la integración con sistemas ERP existentes a través de APIs RESTful. Este requisito está relacionado con el RF correspondiente al módulo de integración externa.
+- RNF-15: La documentación del sistema debe estar disponible y actualizada, incluyendo manuales de usuario, administración y API.
+- RNF-16: El sistema debe ser escalable horizontal y verticalmente para acomodar un crecimiento del 200% en usuarios y transacciones en los próximos 3 años.
+- RNF-17: La interfaz del sistema debe cumplir con los estándares de accesibilidad WCAG 2.1 nivel AA para garantizar el acceso de personas con discapacidad.
+- RNF-18: Los logs del sistema deben conservarse durante al menos 1 año para auditoría y análisis.
+- RNF-19: El sistema debe ofrecer redundancia geográfica para asegurar la continuidad del negocio en caso de desastres naturales.
+- RNF-20: El tiempo de formación para los administradores del sistema no debe superar las 8 horas.
+- RNF-21: El sistema debe permitir la personalización de la interfaz de usuario para alinearse con la marca de la empresa.
+- RNF-22: El sistema debe permitir la recuperación de datos eliminados accidentalmente durante un período de 30 días.
+- RNF-23: El sistema debe ofrecer soporte técnico 24/7 con tiempos de respuesta menores a 2 horas para incidencias críticas.
+- RNF-24: El sistema debe tener una capacidad de almacenamiento inicial de 1TB, escalable según las necesidades futuras.
+- RNF-25: El sistema debe permitir la generación de informes personalizados con datos filtrados según criterios específicos de negocio. Este requisito se relaciona con los RF asociados al módulo de generación de reportes.
+- RNF-26: El sistema debe registrar y mantener un historial detallado de las acciones de los usuarios para fines de trazabilidad, cumplimiento y auditoría.
