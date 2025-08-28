@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Sobrescribir colores de Bootstrap
+$primary: #0B0056; // Azul oscuro
+$secondary: #FFD700; // Dorado
+
+.banner {
+  background: url("../img/banner.jpg") center/cover no-repeat;
+  height: 90vh;
+}
