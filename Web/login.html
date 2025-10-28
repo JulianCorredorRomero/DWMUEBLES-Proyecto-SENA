@@ -8,23 +8,53 @@
 </head>
 <body>
     <header>
-    <h1>Login Page</h1>
-    <h2>MDWSOFT</h2>
+<!-- Header / Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">MDWSOFT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <h1 class="text-center pt-5">Login Page</h1>">
+    <h2 class="text-center pb-2">MDWSOFT</h2>
     </header>
-    <main>
-         <form action="/login" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br> 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br> 
-        <input type="hidden" name="role" id="role">
-        <button type="button" onclick="setRole('cliente')">Cliente</button>
-        <button type="button" onclick="setRole('carpintero')">Carpintero</button>
-        <button type="button" onclick="setRole('administrador')">Administrador</button>
-        <button type="submit">Ingresar</button>
+    <main class="text-center">
+        <form onsubmit="loginUser(event)">
+            <label class="mx-3"for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label class="mx-1"for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="hidden" id="role" name="role">
+        <div id="roleDisplay" class="mb-3">
+            Selected Role: None
+        </div>
+        <div>
+                  <button type="button" class="btn btn-warning btn-sm" onclick="setRole('Cliente', event)">Cliente</button>
+                  <button type="button" class="btn btn-sm" onclick="setRole('Carpintero', event)">Carpintero</button>
+                  <button type="button" class="btn btn-sm" onclick="setRole('Administrador', event)">Administrador</button>
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="rememberMe">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                Remember Me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-warning btn-md">Ingresar</button>
+        </form>
     </main>
-    <footer>
-    <p>&copy; 2025 MDWSOFT. All rights reserved.</p>
-    </footer>
+    <footer class="text-center py-2 mt-4">
+    &copy; 2025 MDWSOFT. All rights reserved.
+</footer>
+<script src="/src/JS/login.js"></script>
 </body>
-</html>
+</html>     

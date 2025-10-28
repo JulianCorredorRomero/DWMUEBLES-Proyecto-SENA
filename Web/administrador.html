@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel de Administración - MDWSOFT</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MDWSOFT Admin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Usuarios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Configuración</a></li>
+        </ul>
+        <button class="btn btn-warning btn-md ms-3">Cerrar Sesión</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="bg-primary text-white text-center p-5">
+    <div class="container">
+      <h1 class="display-5">Panel de Administración</h1>
+      <p class="lead">Resumen de tareas y estadísticas generales</p>
+    </div>
+  </section>
+
+  <!-- Resumen de Tareas -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Estado de Tareas</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card border-success shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-success">Tareas Completas</h5>
+              <p class="display-6 fw-bold">32</p>
+              <p>Última actualización: Hoy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-warning shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Tareas Pendientes</h5>
+              <p class="display-6 fw-bold">14</p>
+              <p>En progreso actualmente</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-danger shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Tareas Faltantes</h5>
+              <p class="display-6 fw-bold">5</p>
+              <p>No iniciadas aún</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabla de Tareas -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Listado de Tareas</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>ID</th>
+              <th>Título</th>
+              <th>Responsable</th>
+              <th>Estado</th>
+              <th>Fecha Límite</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>Implementar login</td>
+              <td>Juan Pérez</td>
+              <td><span class="badge bg-success">Completada</span></td>
+              <td>25/10/2025</td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>Diseño del dashboard</td>
+              <td>María López</td>
+              <td><span class="badge bg-warning text-dark">Pendiente</span></td>
+              <td>28/10/2025</td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>Integrar base de datos</td>
+              <td>Andrés Gómez</td>
+              <td><span class="badge bg-danger">Faltante</span></td>
+              <td>30/10/2025</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Estadísticas -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Estadísticas</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card p-4 shadow-sm">
+            <h5>Progreso General</h5>
+            <p>[Gráfico de progreso]</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card p-4 shadow-sm">
+            <h5>Distribución de Tareas</h5>
+            <p>[Gráfico de pastel]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 MDWSOFT Admin Panel. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
